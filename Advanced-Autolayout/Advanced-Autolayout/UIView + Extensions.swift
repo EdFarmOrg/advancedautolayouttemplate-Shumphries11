@@ -8,7 +8,7 @@ extension UIView {
             return layer.cornerRadius
         }
         set {
-            layer.cornerRadius
+            layer.cornerRadius = newValue
             layer.masksToBounds = newValue > 0
         }
     }
